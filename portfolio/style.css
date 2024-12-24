@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Oswald:wght@200..700&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+/*******NAV-BAR*******/
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    background: #252525;
+    width: 80%;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+    font-family: anton , serif;
+}
+
+.nav-content{
+    padding: 8px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.nav-logo{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.nav-logo span{
+    color: rgb(201, 20, 20);
+}
+
+.social-icons a i{
+    font-size: 22px;
+    padding-right: 1rem;
+    transition: all 0.2s linear;
+}
+
+.social-icons .instagram{
+    color: white;
+}
+
+.social-icons .fa-instagram:hover{
+    color: #ff5f43;
+    text-shadow: 0 0 7px #f72500;
+}
+
+.social-icons .fa-whatsapp:hover{
+    color: #2db811;
+    text-shadow: 0 0 7px #2db811;
+}
+
+.social-icons .fa-facebook:hover{
+    color: #2e39d8;
+    text-shadow: 0 0 7px #2e39d8;
+}
+
+.social-icons .fa-behance:hover{
+    color: #25d3ff;
+    text-shadow: 0 0 7px #25d3ff;
+}
+
+/* ABOUT WEBSITE */
+
+.about-website-section{
+    background: #c91414;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-website-title{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7rem;
+    text-transform: uppercase;
+}
+
+.about-website-title span{
+    color: #252525;
+}
+
+.about-website-information{
+    color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 24px;
+    margin: auto;
+    margin-top: 3rem;
+    width: 350px;
+    height: 350px;
+    background-color: #252525;
+}
+
+/* ABOUT ME SECTION */
+
+.about-me-section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#c91414 , #252525);
+}
+
+.about-me-title{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    text-transform: uppercase;
+}
+
+.about-me-title span{
+    color: #252525;
+}
+
+.about-me-information-title{
+    color: white;
+    font-size: 20px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
+.about-me-section-information{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    font-family:  sans-serif;
+    
+}
+
+.about-me-information{
+    color: #ffffff;
+    padding: 10px;
+    line-height: 29px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    background: #252525;
+}
+
+
+
+/* SKILLS SECTION */
+
+.skills-section{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#252525 , #c91414);
+}
+
+
+
+.skills-title{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    text-transform: uppercase;
+}
+
+.skills-title span{
+        color: #ffd900;
+}
+
+.skills-icons {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top:#ffd900 solid 5px;
+    border-left: #ffd900 solid 5px;
+    border-right: #ffd900 solid 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    margin-top: 1.8rem;
+    
+}
+
+
+
+.skills-icons img{
+    margin: 2rem 2rem 0 2rem;
+    width: 80px;
+    display: block;
+    transition: all linear 0.2s;
+}
+
+.skills-icons img:hover{
+    scale: calc(1.05);
+}
+
+.skills-icons-bottom img:hover{
+    scale: calc(1.05);
+}
+
+
+.stars{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.stars i{
+    color: #ffd900;
+}
+
+.skills-icons-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom:#ffd900 solid 5px;
+    border-left: #ffd900 solid 5px;
+    border-right: #ffd900 solid 5px;
+    
+}
+
+.skills-icons-bottom img{
+    margin: 2rem 2rem 0 2rem;
+    width: 80px;
+    display: block;
+    transition: all linear 0.2s;
+}
+
+/* DOWNLOAD SECTION */
+
+.download-section{
+    background-image: linear-gradient(#c91414 , #252525 );
+    width: 100%;
+    height: 60vh;
+}
+
+.download-title{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    text-transform: uppercase;
+}
+
+.download-title span{
+    color: #ffd900;
+}
+
+.download-button{
+    border-radius: 999px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+    border: solid #c91414 5px;
+    margin: 4rem 33rem;
+    padding: 0.9rem 1.8rem;
+    transition: all 0.2s linear;
+}
+
+.download-button:hover{
+    background: #c91414;
+    box-shadow: 0 0 10px #ffd900;
+}
+
+.download-button a{
+    color: white;
+}
+
+/* PROJECTS SECTION */
+
+.projects-section{
+    background-image: linear-gradient(#252525 , #c91414 );
+    width: 100%;
+    height: 80vh;
+}
+
+.projects-title{
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    text-transform: uppercase;
+}
+
+.projects-title span{
+    color: #ffd900;
+}
+
+.logo-project img{
+    width: 100px;
+    transition: all 0.2s linear;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 28rem ;
+    
+}
+
+.logo-project img:hover{
+    scale: calc(1.08);
+}
+
+/* CONTACT SECTION */
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 30vh;
+    background-color: #252525;
+}
+
+.contact-inormations{
+    line-height: 29px;
+    width: 20%;
+    margin: 2.2rem 2rem 2rem 2rem;
+}
+
+.contact-thanks{
+    text-align: center;
+    line-height: 40px;
+    width: 35%;
+    margin: 2.2rem 2rem 2rem 2rem;
+}
+/* RESPOSIVE SECTION */
+@media (max-width:1023px){
+/* HEADER */
+    header{
+        padding: 0 0 0 0 ;
+        border-radius: 0px;
+        width: 100%;
+    }
+    .nav-content{
+        display: flex;
+        padding: 1.02rem 1rem 0 1rem;
+    }
+    .nav-logo{
+        font-size: 8.3px;   
+    }
+    .social-icons a i{
+        font-size: 20px;
+    }
+/* ABOUT ME */
+    .about-me-information-title{
+        font-size: 15px;
+        text-align: center;
+    }
+    .about-me-section-information{
+        display: block;
+    }
+    .about-me-information{   
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 2rem;
+        font-size: 12.8px;
+        line-height: normal;
+    }
+/* SKILLS */
+    .skills-icons{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .skills-icons img{
+        width: 50px;
+    }
+    .skills-icons-bottom{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .skills-icons-bottom img{
+        width: 50px;
+    }
+    .skills-icons{
+        padding-top: 2rem;
+    }
+/* CV */
+    .download-button{
+        margin: 5rem;
+    }
+/* PROJECTS */
+    .projects-section{
+        height: 55vh;
+    }
+    .projects{
+        display: flex;
+        margin: auto;
+        margin: 3rem;
+        margin-top: 3rem;
+    }
+/* CONTACT */
+    footer{
+        font-size: 20px;
+    }
+    .contact-inormations{
+        width: 250px;
+    }
+    .contact-thanks{
+        text-align: left;
+        font-size: 17px;
+        width: 250px;
+        line-height: 22px;
+    }
+}
